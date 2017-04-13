@@ -3,8 +3,9 @@ import urllib
 
 MVAAYOO_USERNAME = ""
 MVAAYOO_PASSWORD = ""
-MVAAYOO_API_URL_SENDSMS = 'https://www.smsglobal.com.au/http-api.php'
-MVAAYOO_API_URL_CHECKBALANCE = 'https://www.smsglobal.com/credit-api.php'
+MVAAYOO_API_URL_SENDSMS = 'http://api.mVaayoo.com/mvaayooapi/MessageCompose'
+MVAAYOO_API_URL_DELIVERY_REPORT = 'http://api.mvaayoo.com/apidlvr/APIDlvReport'
+MVAAYOO_API_URL_CHECKBALANCE = 'http://api.mvaayoo.com/mvaayooapi/APIUtil'
 
 
 class Mvaayoo:
